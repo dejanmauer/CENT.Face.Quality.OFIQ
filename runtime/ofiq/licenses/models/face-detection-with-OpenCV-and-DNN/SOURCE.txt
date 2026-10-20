@@ -1,0 +1,3 @@
+Source: https://github.com/sr6033/face-detection-with-OpenCV-and-DNN/blob/master/LICENSE
+Blob SHA: 6c0c00a74f7fc91613730ec58cf77cc1122b67af
+Retrieved: 2026-10-20

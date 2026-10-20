@@ -1,0 +1,23 @@
+name: Build and test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  managed:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - run: dotnet restore CENT.Face.Quality.OFIQ.sln
+      - run: dotnet build CENT.Face.Quality.OFIQ.sln -c Release --no-restore
+      - run: dotnet test CENT.Face.Quality.OFIQ.sln -c Release --no-build
+      - run: dotnet pack src/CENT.Face.Quality.OFIQ -c Release --no-build -o artifacts

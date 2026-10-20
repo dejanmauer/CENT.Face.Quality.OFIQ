@@ -1,0 +1,3 @@
+Source: https://github.com/zllrunning/face-parsing.PyTorch/blob/master/LICENSE
+Blob SHA: bfae0b0c29f885a118e382b445b6eaeca0d3b3e6
+Retrieved: 2026-10-20

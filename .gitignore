@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+TestResults/
+artifacts/
+# Generated assemblies are ignored; the reviewed native runtime is tracked with LFS.
+*.dll
+*.pdb
+*.onnx
+*.nupkg
+*.snupkg
+!runtime/ofiq/*.dll
+!runtime/ofiq/models/**/*.onnx

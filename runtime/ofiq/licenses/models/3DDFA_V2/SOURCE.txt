@@ -1,0 +1,3 @@
+Source: https://github.com/cleardusk/3DDFA_V2/blob/master/LICENSE
+Blob SHA: 5628d3cb4f066e2435b3d3e7fc1501eb8e4da304
+Retrieved: 2026-10-20

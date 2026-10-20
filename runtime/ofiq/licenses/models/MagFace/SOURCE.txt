@@ -1,0 +1,3 @@
+Source: https://github.com/IrvingMeng/MagFace/blob/main/LICENSE
+Blob SHA: 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+Retrieved: 2026-10-20

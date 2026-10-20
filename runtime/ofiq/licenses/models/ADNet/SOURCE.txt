@@ -1,0 +1,3 @@
+Source: https://github.com/huangyangyu/ADNet/blob/main/LICENSE
+Blob SHA: 66b6fca9ba079c88246194cf32363ee234c7d5aa
+Retrieved: 2026-10-20
